@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <title>Richard Delfin Mamani - Desarrollador full stack</title>
+  <!-- SEO & Open Graph Meta Tags -->
+  <meta name="description" content="Portafolio de Richard Delfin Mamani, Desarrollador de software y analista programador" />
+  <meta name="keywords" content="desarrollador, full stack, react, nodejs, python, portafolio" />
+  <meta name="author" content="Hebert Cussi Cuentas" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Richard Delfin Mamani – Desarrollador Full Stack" />
+  <meta property="og:description" content="Portafolio profesional de Hebert Cussi Cuentas." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://hebertcussi.dev" />
+
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+  <!-- <header> semántico con navegación -->
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">Richard Delfin Mamani</div>
+        <nav>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- <main> agrupa el contenido principal -->
+  <main>
+    <!--<section> Hero / Inicio -->
+    <section id="inicio">
+      <div class="container">
+        <h2>Diseño y desarrollo <br> con prototipo</h2>
+      </div>
+    </section>
+    <!-- <section> Acerca de -->
+    <section id="proyectos">
+      <div class="container">
+        <h2 class="section-titulo">Proyectos destacados</h2>
+        <div class="proyecto-grilla">
+          <article>
+            <div class="proyecto-img"><img src="img/tarea.png" alt="" width="150" height="150"></div>
+            <div class="proyecto-info">
+              <h3>Aplicacion de tareas</h3>
+              <p>Aplicación web con drag & drop, almacenamiento local. UI minimalista con microinteracciones.</p>
+              <div>
+                <span class="tecnologias">React</span>
+                <span class="tecnologias">CSS</span>
+                <span class="tecnologias">Flexbox</span>
+              </div>
+            </div>
+            
+          </article>
+          
+
+        </div>
+
+        <div class="proyecto-grilla">
+          <article>
+            <div class="proyecto-img"><img src="img/tienda.png" alt="" width="150" height="150"></div>
+            <div class="proyecto-info">
+              <h3>Aplicacion de tienda virtual</h3>
+              <p>Aplicación web con muestra de productos, precio y saldos, almacenamiento local. Imagenes de stock dinamicas.</p>
+              <div>
+                <span class="tecnologias">Node.js</span>
+                <span class="tecnologias">MySQL</span>
+                <span class="tecnologias">HTML+CSS</span>
+              </div>
+            </div>
+            
+          </article>
+          
+
+        </div>
+
+          <div class="proyecto-grilla">
+          <article>
+            <div class="proyecto-img"><img src="img/grafico.png" alt="" width="150" height="150"></div>
+            <div class="proyecto-info">
+              <h3>Aplicacion para pruebas en linea</h3>
+              <p>Aplicación web para pruebas educativas en linea, almacenamiento local (cursos). paralelos y reportes de rendimiento.</p>
+              <div>
+                <span class="tecnologias">Node js</span>
+                <span class="tecnologias">JavaScript</span>
+                <span class="tecnologias">React +HTML + CSS</span>
+              </div>
+            </div>
+            
+          </article>
+          
+
+        </div>
+
+      </div>
+    </section>
+    <!--  <section> Proyectos con CSS Grid + <article> semántico -->
+    <section id="habilidades">
+      <div class="container">
+        <h2 class="section-titulo">Tecnologias y habilidades</h2>
+        <div class="skills-container">
+          <div class="skill-items"><img src="img/php.png" width="50" height="50">PHP</div>
+          <div class="skill-items"><img src="img/javascript.png" width="50" height="50">JavaScript</div>
+          <div class="skill-items"><img src="img/nodejs.png" width="50" height="50">Node.js</div>
+          <div class="skill-items"><img src="img/html.png" width="50" height="50">HTML</div>
+          <div class="skill-items"><img src="img/css.png" width="50" height="50">CSS</div>
+        </div>
+      </div>
+    </section>
+
+    <!--  <section> Contacto con formulario HTML5 validado -->
+    <section id="contacto">
+      <div class="container">
+        <h2 class="section-titulo">Contactenos</h2>
+
+        <div class="contacto-card">
+          <form>
+            <!-- Fila 1: Nombre y Correo al lado del otro -->
+            <div class="fila-doble">
+              <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Tu nombre">
+              </div>
+              <div class="campo">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" placeholder="correo@ejemplo.com">
+              </div>
+            </div>
+
+            <!-- Fila 2: Asunto (ancho completo) -->
+            <div class="campo">
+              <label for="asunto">Telefono</label>
+              <input type="text" id="telefono" placeholder="Numero de telefono">
+            </div>
+
+            <!-- Fila 3: Mensaje (ancho completo) -->
+            <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+            </div>
+
+            <!-- Botón de enviar -->
+            <button type="submit">Enviar mensaje</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <!-- <footer> semántico -->
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        <a href="#" aria-label="GitHub"><img src="img/github.png" width="30" height="30">GitHub</a>
+        <a href="#" aria-label="LinkedIn"><img src="img/linkedin.png" width="30" height="30">LinkedIn</a>
+        <a href="#" aria-label="Twitter"><img src="img/twitter.png" width="30" height="30">Twitter</a>
+      </div>
+      <p>
+        © 2026 Richard Delfin Mamani — Hecho con HTML5 semántico, CSS3 y buenas
+        prácticas UI/UX.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
